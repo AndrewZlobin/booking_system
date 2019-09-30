@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background: url("../img/sea.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(2, 0, 133, 0.45);
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: antiquewhite;
+}
+
+.formWrapper{
+    background: darkslateblue;
+    color: darkgrey;
+}
